@@ -1,0 +1,116 @@
+body,p,ul,li,span{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft Sans Serif";
+    
+}
+
+@font-face{
+    font-family:"Microsoft Sans Serif";
+    src: url(micross.ttf);
+}
+.wrapper{
+    width: 420px;
+    margin: 20px auto;
+}
+
+.container{
+    width: 410px;
+    border-radius: 3px;
+    font-family: "Microsoft Sans Serif", "Verdana", "Tahoma";
+    font-size: 26px;
+    
+}
+
+header{
+    background: #4c4f56;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #393b47;
+    
+}
+
+header p{
+    padding: 25px 0 25px 25px;
+}
+
+
+ul{
+  position: relative;
+}
+
+ul li{
+    list-style: none;
+    padding: 21px 20px 50px 25px;
+    cursor: pointer;
+    color: #8f9092;
+    border-bottom: 1px solid #D1D2D4;
+    border-right: 1px solid #D1D2D4;
+    border-left: 1px solid #D1D2D4;
+    font-size: 24px;
+    position: relative;
+    
+
+}
+
+.side_arrow{
+    position: absolute;
+}
+
+ul li:hover{
+    background-color: #6e757f;
+    color: white;
+    border-top: 1px solid #96979A;
+    border-bottom: 1px solid #676a73;
+    border-left:1px solid #6e757f;
+    border-right:1px solid #6e757f;
+}
+
+li:first-child:hover {
+
+}
+
+li:hover .side{
+    display: block;
+   }
+
+li p, li img{
+    float: left;
+}
+
+li img{
+    margin-right: 25px;
+    width: 40px;
+    height: 33px;
+}
+
+li span{
+    float: right;
+    border: 1px solid #8f9092;
+    border-radius: 30px;
+    padding:5px 15px;
+    margin-top:-5px;
+}
+li:hover span{
+    background: #f33b33;
+   
+}
+
+.side{
+    position: absolute;
+    left: 409px;
+    width: 10px;
+    height: 20px;
+    display: none;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: "Microsoft Sans Serif", "Verdana", "Tahoma";
+    font-size: 26px;
+    color: #8f9092;
+    padding: 25px;
+    display: block;
+    border: 1px solid #D1D2D4;
+}

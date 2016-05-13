@@ -2,21 +2,54 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>CakeHr</title>
+    <title>Message</title>
     <link rel="stylesheet" href="style.css">
+    <script></script>
 </head>    
 <body> 
-    <div class="main">
-        <img src="images/check.png" alt="check"/>
-        <section class="right">
-            <a href ="#"><img src="images/close.png" alt="check"/></a>
-            <h1>Splendid!</h1>
-            <p>You're ready to proceed <br>using CakeHR</p>
-            <div class="clr"></div>
-            <a class="button" href="#">Start CakeHR
-                <img src="images/proceed.png" alt=""/>
-            </a>  
-        </section>
+    <div class="wrapper">
+    <div class="container">
+        
+        <header>
+            <p>Incoming Messages</p>
+        </header>
+        <ul>
+            <li>
+                <img src="images/chat2.png" onmouseover="this.src='images/chat1.png'" onmouseout="this.src='images/chat2.png'" />
+                <p>New</p>
+                <span class="notification">32</span>
+                <img src="images/tri.png" class="side"/>
+            </li>
+            <li>
+                <img src="images/flag.jpg" alt="Priority"/>
+                <p>Priority</p>
+                <span class="notification">8</span>
+                <img src="images/tri.png" class="side"/>
+            </li>
+            <li>
+                <img src="images/assign.jpg" alt="Assigned"/>
+                <p>Assigned</p>
+                <span class="notification">0/17</span>
+                <img src="images/tri.png" class="side"/>
+            </li>
+            <li>
+                <img src="images/archive.jpg" alt="Archived"/>
+                <p>Archived</p>
+                <span class="notification">3</span>
+                <img src="images/tri.png" class="side"/>
+            </li>
+            <li>
+                <img src="images/delete.jpg" alt="Deleted"/>
+                <p>Deleted</p>
+                <span class="notification">9</span>
+                <img src="images/tri.png" class="side"/>
+            </li>
+            
+        </ul>
+        <footer>
+            <a href="#">Show all</a>
+        </footer>
+    </div> 
     </div>    
 </body>
 </html>    
